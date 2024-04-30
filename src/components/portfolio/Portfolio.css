@@ -1,0 +1,45 @@
+.section2 {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 168px;
+}
+
+.section2_title {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52.5px;
+    letter-spacing: 0.185em;
+    text-align: center;
+    color: #14279B;
+    margin-bottom: 60px;
+}
+
+.section2_span {
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    letter-spacing: 0.185em;
+    text-align: center;
+    color: #0d1865;
+}
+
+.section2_cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .section2_cards {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .section2_card_img {
+        Width: 330px;
+        Height: 250px;
+    }
+
+}

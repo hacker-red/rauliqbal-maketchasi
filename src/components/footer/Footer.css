@@ -1,0 +1,33 @@
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url("../../assets/images/Vector\ \(2\).png");
+     background-size: cover;
+     height: 329px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+
+
+.footer_title {
+    position: absolute;
+    top: 260px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 52.5px;
+    letter-spacing: 0.055em;
+    color: #FFFFFF;
+
+}
+
+@media only screen and (max-width: 400px) {
+    
+.footer_title {
+    font-size: 28px;
+
+}
+
+}
